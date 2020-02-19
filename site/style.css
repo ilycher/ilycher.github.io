@@ -1,0 +1,156 @@
+html, body, div, span, applet, object, iframe,
+	h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+	a, abbr, acronym, address, big, cite, code,
+	del, dfn, em, font, img, ins, kbd, q, s, samp,
+	small, strike, strong, sub, sup, tt, var,
+	dl, dt, dd, ol, ul, li,
+	fieldset, form, label, legend,
+	table, caption, tbody, tfoot, thead, tr, th, td {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		outline: 0;
+		font-weight: inherit;
+		font-style: inherit;
+		font-size: 100%;
+		font-family: inherit;
+		vertical-align: baseline;
+	}
+
+	:focus {
+		outline: 0;
+	}
+
+	body {
+		line-height: 1;
+		color: white;
+		background: black;
+	}
+
+	ol, ul {
+		list-style: none;
+	}
+
+	table {
+		border-collapse: separate;
+		border-spacing: 0;
+	}
+
+	caption, th, td {
+		text-align: left;
+		font-weight: normal;
+	}
+
+	blockquote:before, blockquote:after,
+	q:before, q:after {
+	content: "";
+	}
+
+	blockquote, q {
+	quotes: "" "";
+	}
+
+    .hheder {
+        width: 100%;
+        background-color: rgb(0, 0, 0);
+        position: fixed;
+        height: 10vh;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        opacity: 60%;
+    }
+
+    .h_b {
+        width: 10vw;
+        height: 100%;
+        background: none;
+        color: #FFFFFF;
+        border: none;
+        font-size: 3vh;
+    }
+
+    .h_b:hover {
+        border-bottom: 5px solid #FFFFFF;
+    }
+
+.gallery {
+	margin-top: 30px;
+}
+
+.gallery img:hover {
+	opacity: 0.4;
+}.fullscreen-bg {
+    overflow: hidden;
+    z-index: -100;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    padding-top:45%;
+}
+ 
+header {
+    padding-top: 10vh;
+}
+.fullscreen-bg__video {
+    
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.overlay {
+    background: rgba(0,0,0,0.6);
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    z-index: 4;
+}
+.overlay h1 {
+    text-align:center;
+    color:#fff;
+    font-size: 70px;
+    margin-top:17%;
+}
+p {
+    color: white;
+}
+.content {
+    margin: 10vw;
+    
+}
+@font-face {
+	font-family: League-Gothic;
+	src: url("League-Gothic.otf") format("opentype");
+}
+
+@font-face {
+	font-family: Museo;
+	src: url("Museo300-Regular.otf") format("opentype");
+}
+
+#neon {
+  background: #000;
+}
+
+#neon h1 {
+	text-align: center;
+	font-family: "Museo";
+	font-size: 8vw; text-transform: uppercase;
+	color: #fff;
+	text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #1100ff, 0 0 70px #001aff, 0 0 80px #1900ff, 0 0 100px #1100ff, 0 0 150px #2f00ff;
+}
+.logo {
+text-align: center;
+width: 100%;
+}
+.logo img {
+    width: 45vw;
+}
+.flex {
+width: 100%;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
