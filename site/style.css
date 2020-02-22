@@ -154,3 +154,21 @@ display: flex;
 justify-content: space-around;
 align-items: center;
 }
+
+
+.text {
+	
+	text-align: center;
+	font-family: "Museo";
+	font-size: 2vw; text-transform: uppercase;
+	color: #fff;
+	text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff0000, 0 0 70px #ff0000, 0 0 80px #ff0000, 0 0 100px #ff0000, 0 0 150px #ff0000;
+
+}
+.img {
+	width: 100%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
